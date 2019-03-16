@@ -1,0 +1,41 @@
+{
+  "name": "racing-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
+    "watch": "webpack -w -d",
+    "build": "webpack -p",
+    "lint": "node_modules/.bin/esw webpack.config.* src --color",
+    "lint:watch": "npm run lint -- --watch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.12.1",
+    "eslint-watch": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kntrvch/racing-game.git"
+  },
+  "author": "JK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kntrvch/racing-game/issues"
+  },
+  "homepage": "https://github.com/kntrvch/racing-game#readme"
+}
